@@ -1,0 +1,29 @@
+project:
+  output-dir: _output
+  type: book
+
+pdf-engine: xelatex
+
+format:
+  pdf:
+    documentclass: book
+  html: default
+
+book:
+  title: "Test"
+  author: Me
+  chapters:
+    - index.qmd
+    - refs.qmd
+
+
+filters:
+    - multibib
+
+bibliography:
+    main: ref1.bib
+    own: ref2.bib
+
+validate-yaml: false
+# citeproc: false
+# suppress-bibliography: true
