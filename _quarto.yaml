@@ -20,10 +20,6 @@ book:
 filters:
     - multibib
 
-bibliography:
-    main: ref1.bib
-    own: ref2.bib
+bibliography_main: ref1.bib
+bibliography_own: ref2.bib
 
-validate-yaml: false
-# citeproc: false
-# suppress-bibliography: true
